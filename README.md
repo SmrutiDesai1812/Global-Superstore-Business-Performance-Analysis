@@ -514,17 +514,94 @@ This analysis can help business teams:
 ```text
 Global-Superstore-Business-Performance/
 │
-├── 📁 Data/
-│   └── Global Superstore Dataset
+├── 📁 data/
+│   └── global_super_store_cleaned.csv
 │
-├── 📁 Images/
-│   └── Global-Superstore-Dashboard.png
+├── 📁 database/
+│   └── global_superstore_database_dump.sql
 │
-├── 📁 SQL/
-│   └── Global-Superstore-Analysis.sql
+├── 📁 images/
+│   └── global_super_store_dashboard.png
+│
+├── 📁 power BI/
+│   └── Global Super Store.pbix
+│
+├── 📁 sql/
+│   └── data_preparation.sql
+|   └──analysis.sql
 │
 └── 📄 README.md
 ```
+
+---
+
+## 📂 Repository Contents
+
+| Folder      | Description                                            |
+| ----------- | ------------------------------------------------------ |
+| `data/`     | Cleaned global Superstore dataset used for analysis    |
+| `database/` | MySQL database export used for analysis                |
+| `images/`   | Power BI dashboard screenshot                         |
+| `power BI/` | Interactive Power BI dashboard file (`.pbix`)          |
+| `sql/`      | SQL scripts for data preparation and business analysis |
+| `README.md` | Complete project documentation                         |
+
+---
+
+## 📊 Dataset
+
+* [Global Superstore Dataset](data/global_super_store_cleaned.csv)
+
+> **Note:** The dataset was cleaned and prepared using Microsoft Excel(power query)and SQL before performing the final business analysis.
+
+---
+
+## 📄 SQL Analysis
+
+* [Global Superstore Data Preparation SQL](sql/data_preparation.sql)
+* [Global Superstore Analysis SQL](sql/analysis.sql)
+
+The SQL analysis contains **17 business questions** covering:
+
+* Overall business KPIs
+* Yearly sales and profit analysis
+* Year-over-Year sales growth
+* Monthly sales and profit trends
+* State and city performance
+* Regional analysis
+* Category and sub-category profitability
+* Top profitable products
+* Loss-making products
+* Discount versus profitability
+* Customer segment performance
+* Top customers by sales
+* Shipping mode analysis
+* Product profit ranking within categories
+* Loss-making states
+
+---
+
+## 🗄️ MySQL Database
+
+* [Global Superstore MySQL Database](database/global_superstore_database_dump.sql)
+
+The MySQL database export contains the database structure and data used for SQL-based business analysis.
+
+### How to Use
+
+1. Download the `global_superstore_database_dump.sql` file.
+2. Open **MySQL Workbench**.
+3. Create a new database.
+4. Import and execute the SQL file.
+5. Execute the analysis queries from the `sql/` folder.
+
+---
+
+## 📊 Power BI Dashboard
+
+* [Global Superstore Business Performance Dashboard](power BI/Global Super Store.pbix)
+
+> **Note:** GitHub cannot preview `.pbix` files. Download the file and open it using **Microsoft Power BI Desktop** to explore the interactive dashboard.
 
 ---
 
