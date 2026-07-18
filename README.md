@@ -370,7 +370,7 @@ The Power BI dashboard was developed to provide an interactive overview of **Glo
 
 ## 📸 Dashboard Preview
 
-![Global Superstore Dashboard](Images/global_super_store_dashboard.png)
+![Global Superstore Dashboard](images/global_super_store_dashboard.png)
 
 ---
 
