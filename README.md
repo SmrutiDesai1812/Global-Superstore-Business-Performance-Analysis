@@ -1,15 +1,20 @@
 # 📊 Global Superstore Business Performance Analysis
 
+**End-to-End Business Intelligence Project using Microsoft Excel, SQL, MySQL, and Power BI**
+
 ## ⚡ Quick Summary
 
-- 💰 **$2.30M** in total sales generated
-- 📈 **$286.40K** in total profit
-- 📊 **12.47%** overall profit margin
-- 🛒 **5,009** total orders analysed
-- 📈 Sales grew by **20.36% year-over-year in 2017**
-- 💻 **Technology** generated the highest sales and profit
-- 🏆 **West** was the top-performing region by sales and profit
-- ⚠️ Higher discount levels were strongly associated with declining profitability
+- 📊 **Dataset:** Global Superstore transactional business dataset
+- 🛠 **Tools:** Microsoft Excel, SQL, MySQL, Power BI, Power Query, Pivot Tables, and DAX
+- 📈 **Analysis Area:** Sales & Profitability Performance
+- 💰 **Total Sales:** $2.30M
+- 📈 **Total Profit:** $286.40K
+- 📊 **Overall Profit Margin:** 12.47%
+- 🛒 **Total Orders Analysed:** 5,009
+- 📈 **Key Growth:** Sales grew by **20.36% year-over-year in 2017**
+- 💻 **Top Category:** Technology generated the highest sales and profit
+- 🏆 **Top Region:** West was the highest-performing region by sales and profit
+- 🎯 **Key Outcome:** Transformed raw transactional data into actionable business insights by analysing sales growth, profitability, regional performance, product performance, customer segments, discount impact, and shipping modes using SQL and Power BI.
 
 ---
 
@@ -33,37 +38,34 @@ The project combines **data preparation, SQL-based business analysis, and intera
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
-- 📗 **Microsoft Excel**
-  - Power Query
-  - Pivot Tables
-- 🐬 **MySQL**
-- 🧮 **SQL**
-- 📊 **Power BI**
-- 📈 **DAX**
-- 🎨 **Data Visualization**
-- 🧠 **Business Analysis**
+| Tool | Purpose |
+|------|---------|
+| **Microsoft Excel (Power Query & Pivot Tables)** | Data cleaning, data transformation, exploratory analysis, and summary validation |
+| **MySQL** | Database storage, staging table creation, and database management |
+| **SQL** | Data querying, data cleaning, exploratory analysis, and business analysis |
+| **Power BI** | Interactive dashboard development, KPI reporting, and data visualisation |
+| **DAX** | KPI calculations and business performance measures |
 
 ---
 
-## 💼 Skills Demonstrated
+# 💼 Skills Demonstrated
+
+This project demonstrates practical Business Intelligence and Data Analytics skills, including:
 
 - Data Cleaning & Preparation
+- Data Transformation
 - Data Type Conversion
-- SQL Data Analysis
-- KPI Analysis
-- Sales & Profitability Analysis
-- Year-over-Year Growth Analysis
-- Trend Analysis
-- Geographic Performance Analysis
-- Product Profitability Analysis
-- Customer Segment Analysis
-- Discount Impact Analysis
-- Shipping Mode Analysis
+- SQL Querying
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- KPI Development
+- DAX Measures
 - Power BI Dashboard Development
+- Data Visualisation
 - Business Insight Generation
-- Data Visualization
+- Data-Driven Decision Making
 
 ---
 
