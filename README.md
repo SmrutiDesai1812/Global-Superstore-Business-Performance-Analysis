@@ -539,7 +539,7 @@ Global-Superstore-Business-Performance/
 
 | Folder      | Description                                            |
 | ----------- | ------------------------------------------------------ |
-| `data/`     | Cleaned global Superstore dataset used for analysis    |
+| `data/`     | Cleaned global superstore dataset used for analysis    |
 | `database/` | MySQL database export used for analysis                |
 | `images/`   | Power BI dashboard screenshot                         |
 | `power BI/` | Interactive Power BI dashboard file (`.pbix`)          |
