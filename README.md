@@ -5,7 +5,7 @@
 ## ⚡ Quick Summary
 
 * 📊 **Dataset:** Global Superstore transactional business dataset
-* 🛠️ **Tools:** Microsoft Excel, SQL, MySQL, Power BI, Power Query, Power Pivot, XLOOKUP, Pivot Tables, and DAX
+* 🛠️ **Tools:** Microsoft Excel, SQL, MySQL, Power BI, Power Query, XLOOKUP, Pivot Tables, and DAX
 * 📈 **Analysis Area:** Sales & Profitability Performance
 * 💰 **Total Sales:** $2.30M
 * 📈 **Total Profit:** $286.40K
@@ -45,8 +45,8 @@ The analysis revealed two important business insights: **profitability decreased
 
 | Tool                                                                   | Purpose                                                                           |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| **Microsoft Excel (Power Query, Power Pivot, XLOOKUP & Pivot Tables)** | Data cleaning, data transformation, data lookup, analysis, and summary validation |
-| **MySQL**                                                              | Database storage, staging table creation, and database management                 |
+| **Microsoft Excel (Power Query, XLOOKUP & Pivot Tables)** | Data cleaning, data transformation, data lookup, analysis, and summary validation |
+| **MySQL**                                                              | Database storage, backup table creation, and database management                 |
 | **SQL**                                                                | Data cleaning, data querying, exploratory analysis, and business analysis         |
 | **Power BI**                                                           | Interactive dashboard development, KPI reporting, and data visualisation          |
 | **DAX**                                                                | KPI calculations and business performance measures                                |
@@ -61,7 +61,6 @@ This project demonstrates practical Business Intelligence and Data Analytics ski
 * Data Transformation
 * Data Type Conversion
 * XLOOKUP
-* Power Pivot Analysis
 * Pivot Table Analysis
 * SQL Query Writing
 * Exploratory Data Analysis (EDA)
@@ -77,22 +76,22 @@ This project demonstrates practical Business Intelligence and Data Analytics ski
 
 # 📂 Dataset
 
-The Global Superstore dataset contains transactional business data including:
+The Global Superstore dataset contains transactional sales data with **24 columns** covering orders, customers, products, sales, and profitability.
 
-* Order Details
-* Order and Ship Dates
-* Customer Information
-* Geographic Information
-* Product Categories
-* Product Sub-Categories
-* Sales
-* Profit
-* Profit Margin
-* Discount
-* Customer Segments
-* Shipping Modes
+### 📊 Dataset Columns
 
-The dataset was prepared and analysed to understand overall business performance, sales growth, and profitability trends.
+| Category | Columns |
+|---|---|
+| **Order Details** | Row ID, Order ID, Order Date, Ship Date, Ship Mode |
+| **Customer Information** | Customer ID, Customer Name, Segment |
+| **Geographic Information** | Country, City, State, Postal Code, Region |
+| **Product Information** | Product ID, Category, Sub-Category, Product Name |
+| **Sales & Profitability** | Sales, Quantity, Discount, Profit, Profit Margin |
+| **Time Attributes** | Order Year, Order Month |
+
+The dataset was analyzed using **Microsoft Excel**, with **Power table and XLOOKUP** used to support data analysis and preparation.
+
+The analysis focuses on understanding **sales, profit, and profit margin performance across different product categories, sub-categories, customer segments, regions, and time periods**.
 
 ---
 
@@ -124,15 +123,13 @@ These steps ensured that the dataset was structured correctly and ready for reli
 Raw Dataset
      ↓
 Microsoft Excel
-(Power Query, XLOOKUP & Power Pivot)
+(Power Query,Power Table, XLOOKUP)
      ↓
-Data Preparation & Transformation
-     ↓
-Pivot Table Analysis
+Data cleaning and Transformation
      ↓
 MySQL Data Import
      ↓
-SQL Data Cleaning
+SQL Data Cleaning and preparation
      ↓
 Business Analysis
      ↓
@@ -545,6 +542,6 @@ The analysis also demonstrated that **high sales do not always translate into hi
 
 Through SQL analysis and Power BI dashboard development, the project identified important opportunities to improve discount strategies, monitor loss-making areas, improve Furniture profitability, focus on high-performing Technology products, and evaluate sales performance alongside profit and profit margin.
 
-Overall, this project strengthened my practical skills in **data cleaning, Excel analysis, XLOOKUP, Power Pivot, SQL analysis, MySQL, business intelligence, DAX, data visualisation, and Power BI dashboard development**.
+Overall, this project strengthened my practical skills in **data cleaning, Excel analysis, XLOOKUP, Pivot table, SQL analysis, MySQL, business intelligence, DAX, data visualisation, and Power BI dashboard development**.
 
 It demonstrates the ability to transform raw business data into **meaningful business insights and data-driven recommendations**.
