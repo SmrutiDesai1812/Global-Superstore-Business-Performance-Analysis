@@ -524,7 +524,7 @@ Global-Superstore-Business-Performance/
 │   └── global_super_store_dashboard.png
 │
 ├── 📁 power BI/
-│   └── Global Super Store.pbix
+│   └── Global_Super_Store.pbix
 │
 ├── 📁 sql/
 │   └── data_preparation.sql
@@ -539,7 +539,7 @@ Global-Superstore-Business-Performance/
 
 | Folder      | Description                                            |
 | ----------- | ------------------------------------------------------ |
-| `data/`     | Cleaned global Superstore dataset used for analysis    |
+| `data/`     | Cleaned global superstore dataset used for analysis    |
 | `database/` | MySQL database export used for analysis                |
 | `images/`   | Power BI dashboard screenshot                         |
 | `power BI/` | Interactive Power BI dashboard file (`.pbix`)          |
@@ -597,9 +597,9 @@ The MySQL database export contains the database structure and data used for SQL-
 
 ---
 
-## 📊 Power BI Dashboard
+## 📊 Power BI Interactive Dashboard
 
-* [Global Superstore Business Performance Dashboard](power BI/Global Super Store.pbix)
+* [Global Superstore Business Performance Dashboard](power BI/Global_Super_Store.pbix)
 
 > **Note:** GitHub cannot preview `.pbix` files. Download the file and open it using **Microsoft Power BI Desktop** to explore the interactive dashboard.
 
